@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weenybeeny</title>
+  <link rel="shortcut icon" href="./images/hd_logo.png">
+  <!-- 그리드 시스템 css -->
+  <link rel="stylesheet" href="./css/grid.css">
+  <!-- 웹폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Swiper Slider -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- 사용자 css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <!-- Swiper Slider -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <header id="main_header">
+    <div class="container">
+      <h1>
+        <a href="./">
+          <img src="./images/hd_logo.png" alt="logo">
+        </a>
+      </h1>
+      <nav id="gnb">
+        <ul class="depth1">
+          <li><a href="#">초콜릿</a>
+            <ul class="depth2">
+              <li><a href="#">과일초콜릿</a></li>
+              <li><a href="#">너트초콜릿</a></li>
+              <li><a href="#">쿠키초콜릿</a></li>
+              <li><a href="#">랩트초콜릿</a></li>
+              <li><a href="#">브랜드초콜릿</a></li>
+              <li><a href="#">초콜릿패키지</a></li>
+            </ul>
+          </li>
+          <li><a href="#">구미</a>
+            <ul class="depth2">
+              <li><a href="#">구미/젤리</a></li>
+              <li><a href="#">롤리팝</a></li>
+              <li><a href="#">휘리팝</a></li>
+              <li><a href="#">유니콘팝</a></li>
+              <li><a href="#">캔디스틱</a></li>
+              <li><a href="#">캔디케인</a></li>
+            </ul>
+          </li>
+          <li><a href="#">캐러멜</a>
+            <ul class="depth2">
+              <li><a href="#">캐러멜</a></li>
+              <li><a href="#">버블껌</a></li>
+            </ul>
+          </li>
+          <li><a href="#">머쉬멜로우</a>
+            <ul class="depth2">
+              <li><a href="#">머쉬멜로우</a></li>
+            </ul>
+          </li>
+          <li><a href="#">화이트DAY</a>
+            <ul class="depth2">
+              <li><a href="#">화이트DAY</a></li>
+            </ul>
+          </li>
+          <li><a href="#">기프트</a>
+            <ul class="depth2">
+              <li><a href="#">선물하기</a></li>
+              <li><a href="#">DIY</a></li>
+          </ul>
+          </li>
+          <li><a href="#">캐릭터</a>
+            <ul class="depth2">
+              <li><a href="#">KAKAOFriends</a></li>
+              <li><a href="#">LINEFriends</a></li>
+              <li><a href="#">SNOOPY</a></li>
+              <li><a href="#">핑크퐁</a></li>
+            </ul>
+          </li>
+        <li><a href="#">회사소개</a>
+          <ul class="depth2">
+            <li><a href="about.html">회사소개</a></li>
+            <li><a href="#">브랜드소개</a></li>
+            <li><a href="#">오시는길</a></li>
+        </ul>
+        </li>
+      </nav>
+    </div><!-- end container -->
+  </header>
+
+  <section id="main_visual">
+    <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- 여기에 슬라이더 콘텐츠 추가 -->
+        <div class="swiper-slide">
+          <img src="./images/banner01.jpg" alt="1">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/banner02.jpg" alt="2">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/banner03.jpg" alt="3">
+        </div>
+      </div>
+      <!-- pager UI -->
+      <div class="swiper-pagination"></div>
+      <div class="container1400">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>     
+  </section>
+
+  <!-- 이벤트 -->
+  <section id="vision">
+    <div class="container">
+      <div class="row">
+        <div class="col_5">
+          <h2><span>White Day</span><br>GIFT</h2>
+          <p><q>사랑하는 연인에게 달콤한 사랑을 선물 하세요♡</q><br>
+             candy, love, sweet</p>
+          <a href="#" class="btn-detail">detail view</a>
+        </div>
+        <div class="col_7">
+          <img src="./images/ddibanner01.jpg" alt="사진">
+        </div>
+      </div>
+    </div><!-- container -->
+  </section>
+
+  <!-- 제품소개 -->
+  <section id="product">
+    <div class="container">
+      <h2></h2>
+      <div class="row">
+        <div class="col_4">
+          <a href="#">
+            <img class="img_responsive" src="./images/mc02_01.jpg" alt="사우어마니아롤리팝">
+          </a>
+        </div>
+        <div class="col_4">
+          <a href="#">
+            <img class="img_responsive" src="./images/mc02_02.jpg" alt="위니비니16구(+쇼핑백증정)">
+          </a>
+        </div>
+        <div class="col_4">
+          <a href="#">
+            <img class="img_responsive" src="./images/mc02_03.jpg" alt="휘리팝레인보우248g">
+          </a>
+        </div>
+      </div>
+    </div><!-- end container -->
+  </section>
+
+  <!-- 브랜드홍보(브릿지) -->
+  <section id="whiteday">
+    <div class="container">
+      <h2>white day</h2>
+      <p>화이트데이의 특별한 상품을 만나러 갈까요?</p>
+      <a href="#" class="btn-detail">detail view</a>
+    </div><!-- end container -->
+  </section>
+
+  <footer id="main_footer">
+    <div class="container">
+      <!-- 1.회사소개 -->
+      <address> 회사명 : (주)씨믹스 대표 : 이왕행 사업자등록번호 : 214-87-08198 통신판매업신고 : 제 2012-서울강남-1685호</address>
+      <!-- 2.연락처, 사업자정보 -->
+      <p class="info"> TEL : 070-5029-3644 이메일 : admin@cmix.co.kr 개인정보관리자 : 이선주 계좌번호 : (신한) 140-009-077676 (주)씨믹스</p>
+      <!-- 3. 무통장입금 -->
+      <p class="address">주소 : 서울시 강남구 도곡로 182, 9층 (도곡동)</p>
+      <!-- 3.저작권 정보(copyright) -->
+      <p class="copy">Copyright (c)<strong>WEENYBEENY</strong>, All rights reserved.</p>
+    </div><!-- end container -->
+  </footer>
+</body>
+</html>
